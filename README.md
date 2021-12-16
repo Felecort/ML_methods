@@ -1,7 +1,13 @@
-# Analysis of the Iris dataset.  
-Neural networks with different activation functions cope well with the task of classification.  
-It was found that for faster training of a neural network, it is advisable to use the activation function real, because with such a subchord, the number of epochs for training is 201. When using sigmoids as an activation function, it is necessary to increase the number of epochs by 401.  
-The accuracy in both cases is approximately 87%  
+# Description of the neural network 
+The constructed neural networks work according to the following algorithm:
+1. The data is submitted to the input after
+2. They are multiplied by weight coefficients and pass into the hidden layer of the neural network
+3. A nonlinear activation function is applied to the results obtained
+4. The new data is multiplied by the weights again and fed to the output.
+5. The result obtained is compared with the correct one and the error for the two layers is calculated
+6. The error is multiplied by the results obtained on the hidden and output layers.
+7. Also, the change in weights is multiplied by the alpha coefficient to avoid learning problems
+8. After changing the weights, new data is submitted to the input and the neural network continues its training
 
 # Results of neural networks   
 
