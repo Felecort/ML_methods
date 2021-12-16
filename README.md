@@ -13,3 +13,6 @@ The accuracy in both cases is approximately 87%
 |hidden layer size|7|7|
 Percentage of correct answers|93.3|90|
 
+## Analysis of results
+Analysis of the results showed that the error most often occurs when the input parameters are Iris-Versicolor. This type of its parameters is similar to Iris-Virginica, which is why the neural network is wrong in some cases.  
+The highest correlation is achieved in Iris-Setosa, there were no problems with this type of data when determining
